@@ -7,8 +7,7 @@ Please find below a step-by-step guide for training the models described in the 
 Setup:
 
 0. Create the python environment
-
-The packages needed to run all code are specified in the "env_eeg.yml" file. The environment can be built using this yml file as described here: [link](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html)
+   - The packages needed to run all code are specified in the "env_eeg.yml" file. The environment can be built using this yml file as described here: [link](https://docs.conda.io/projects/conda/en/stable/user-guide/tasks/manage-environments.html)
 
 1. Set directories:
    - "utils.py": Set the 'superfix' variable in the 'get_superfix_prefix_and_make_dir' and 'get_superfix' functions
