@@ -16,8 +16,8 @@ Setup:
 3. Train underlying task glass box and black box models:
    - Run the pipeline_step_1.py script. This script constructs the underlying task (i.e. regression and classification) datasets.
      - python3 pipeline_step_1.py --run_machine='local' --n_splits=4 --split_type='kfold' > pipeline_step_1_outputs.txt
-   - Run the pipeline_step_2.py script. This script fits the ensemble member models on the underlying task (i.e. regression and classification) datasets.
-   - python3 pipeline_step_2.py --run_machine='local' --model_type='logistic_regression' --n_splits=4 --split_type='kfold' --fit_all_splits=False > pipeline_step_2_outputs.txt
+   - Run the pipeline_step_2.py script. This script fits the ensemble member models on the underlying task datasets.
+     - python3 pipeline_step_2.py --run_machine='local' --model_type='logistic_regression' --n_splits=4 --split_type='kfold' --fit_all_splits=False > pipeline_step_2_outputs.txt
 
 4. Train the allocator models:
    - Run the pipeline_step_3.py script. This script constructs the allocator training dataset used to learn how to optimally allocate between the glass box and black box models.
