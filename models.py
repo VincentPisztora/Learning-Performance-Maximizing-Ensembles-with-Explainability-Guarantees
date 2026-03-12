@@ -8,7 +8,6 @@ Description: This file contains implementations of tabular wideresnet and gradie
 
 ###############################################################################
 #References:
-#https://rpmarchildon.com/wp-content/uploads/2018/09/RM-W-Keras-VGG-WRN-vF1.html#section_3
 #https://arxiv.org/pdf/1605.07146.pdf
 #https://github.com/keras-team/keras/blob/v2.8.0/keras/layers/normalization/batch_normalization.py#L1125-L1265
 
@@ -362,3 +361,4 @@ class TabWRN(keras.Model):
     @classmethod
     def from_config(cls, config):
         return cls(**config)
+
