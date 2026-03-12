@@ -21,9 +21,9 @@ Setup:
 
 4. Train the allocator models:
    - Run the pipeline_step_3.py script. This script constructs the allocator training dataset used to learn how to optimally allocate between the glass box and black box models.
-     - python3 pipeline_step_3.py --run_machine='local' > pipeline_step_3_outputs.txt
+     - `python3 pipeline_step_3.py --run_machine='local' > pipeline_step_3_outputs.txt`
    - Run the pipeline_step_4.py script. This script fits all allocator models for each dataset described in the paper. For each (dataset, glass box type, black box type, allocator type) 4-tuple, an allocator (of the specified type) is learned to optimally allocate prediction between the best glass box and black box of the specified type available for the given dataset.
-     - python3 pipeline_step_4.py --run_machine='local' --r_cutoff_type='val' --hyper_set='large' --rank_type='bb_minus_gb' --feat_type='all' --dist_type='cemse' --rep=0 > pipeline_step_4_outputs.txt
+     - `python3 pipeline_step_4.py --run_machine='local' --r_cutoff_type='val' --hyper_set='large' --rank_type='bb_minus_gb' --feat_type='all' --dist_type='cemse' --rep=0 > pipeline_step_4_outputs.txt`
 
 More detailed descriptions of each script and input args are available within each .py file. 
 
