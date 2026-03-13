@@ -3,10 +3,9 @@
 <div align="center">
   <img src="/assets/ToyExample_4Scatter_vE.png" alt="image" width="600">
   <br>
-  <small><small><em>This figure shows a two-class classification task in which the areas of expertise (the diamond pattern for the glass box and the spiral pattern for the black box model) are complementary. The glass box achieves a 92.7% accuracy, the black box reaches 95.0% accuracy, and the allocated ensemble of the two exceeds both with a 95.8% accuracy. Thus, the resulting EEG allocation improves performance over both component models while also providing explainability (for 20% of observations in this case).</em></small></small>
+  <font size="2"><em>This figure shows a two-class classification task in which the areas of expertise (the diamond pattern for the glass box and the spiral pattern for the black box model) are complementary. The glass box achieves a 92.7% accuracy, the black box reaches 95.0% accuracy, and the allocated ensemble of the two exceeds both with a 95.8% accuracy. Thus, the resulting EEG allocation improves performance over both component models while also providing explainability (for 20% of observations in this case).</em></font>
 </div>
 <br>
----
 
 This repository contains the code referenced in the AAAI24 paper "Learning Performance Maximizing Ensembles with Explainability Guarantees" ([arxiv](https://arxiv.org/abs/2312.12715)) ([AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/29378/30602)).
 
