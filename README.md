@@ -1,7 +1,7 @@
 # Learning-Performance-Maximizing-Ensembles-with-Explainability-Guarantees
 
-div align="center">
-  <img src="/assets/ToyExample_4Scatter_vE.png" alt="image" width="400">
+<div align="center">
+  <img src="/assets/ToyExample_4Scatter_vE.png" alt="image" width="700">
   <br>
   <small><em>This figure illustrates how the <i>&epsilon;</i>mu response mixing parameter <i>&eta;</i><sub>&epsilon;</sub>(<i>&lambda;</i>) relates to the feature mixing parameter <i>&lambda;</i> across several values for the rescaled consistency neighborhood radius <i>v</i><sub>&epsilon;</sub>.</em></small>
 </div>
