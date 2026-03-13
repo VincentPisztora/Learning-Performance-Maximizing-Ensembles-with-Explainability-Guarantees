@@ -3,7 +3,7 @@
 <div align="center">
   <img src="/assets/ToyExample_4Scatter_vE.png" alt="image" width="600">
   <br>
-  <small><em>This figure illustrates how the <i>&epsilon;</i>mu response mixing parameter <i>&eta;</i><sub>&epsilon;</sub>(<i>&lambda;</i>) relates to the feature mixing parameter <i>&lambda;</i> across several values for the rescaled consistency neighborhood radius <i>v</i><sub>&epsilon;</sub>.</em></small>
+  <small><em>his figure shows a two-class classification task in which the areas of expertise (the diamond pattern for the glass box and the spiral pattern for the black box model) are complementary. The glass box achieves a 92.7% accuracy, the black box reaches 95.0% accuracy, and the allocated ensemble of the two exceeds both with a 95.8% accuracy. Thus, the resulting EEG allocation improves performance over both component models while also providing explainability (for 20% of observations in this case)..</em></small>
 </div>
 <br>
 
